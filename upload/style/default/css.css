@@ -1,0 +1,576 @@
+/*----------------------------------------默认设置开始----------------------------------------*/
+
+body, form, ul, li
+{
+	margin: 0;
+	padding: 0;
+	text-align:left;
+}
+p
+{
+	margin:0;
+}
+img
+{
+	border: 0;
+}
+body	/*网站背景颜色*/
+{
+	background-color: #EFFBFF;
+}
+
+/*字体、行高默认设置*/
+body, table
+{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	line-height: 140%;
+}
+
+/*表单项默认设置*/
+input, select, textarea
+{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+/*链接默认设置*/
+a
+{
+	text-decoration: underline;
+	color: #333;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #FF4E00;
+}
+
+/*----------------------------------------默认设置结束----------------------------------------*/
+
+
+/*----------------------------------------顶部设置开始----------------------------------------*/
+
+/*头部样式*/
+.header					/*头部整体样式*/
+{
+	background-Image: url("images/header_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/header_bg.jpg*/;
+}
+.header .headerLeft		/*头部左侧样式*/
+
+{
+	width:500px;
+	background: url("images/header_left.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/header_left.jpg*/ no-repeat right;	
+	
+}
+
+.header .headerRight	/*头部右侧样式*/
+{
+	width:460px;
+	background: url("images/header_right.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/header_right.jpg*/ no-repeat right;	
+}
+
+/*顶部主导航样式*/
+table.nav
+{
+	border-top: 3px solid #00528F;
+	background: url("images/daohang_right.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/daohang_right.jpg*/;		
+}
+table.nav .navTd		/*栏目间分隔线颜色*/
+{
+	border-left:1px solid #00528F;
+	border-right:1px solid #00528F;
+}
+table.nav .navTd a.navA	/*顶部导航栏目链接样式*/
+{
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 36px;
+	line-height: 36px;
+	background: url("images/daohang_right.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/daohang_right.jpg*/;	
+}
+table.nav .navTd a.navCurrent	/*顶部导航当前栏目链接样式*/
+{
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	height: 36px;
+	line-height: 36px;
+	color: #FFD800;	
+	background: url("images/a1.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/a1.jpg*/ no-repeat center;
+}
+table.nav .navTd a.navA:hover	/*顶部导航鼠标经过样式*/
+{
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	height: 36px;
+	line-height: 36px;
+	color: #FFD800;
+	background: url("images/a1.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/a1.jpg*/  no-repeat center;
+}
+
+/*顶部下拉菜单样式*/
+.navFloat		/*下体菜单整体样式*/
+{
+	width: 106px!important;
+	width: 100%;
+	position: absolute;
+	visibility: hidden;
+	z-index: 2;	
+	background-color: #004E8A;
+}
+.navFloat .space	/*下体菜单分隔线样式*/
+{
+	height: 1px;
+	background-color: #4D83AD;
+}
+.navFloat a			/*下体菜单链接样式*/
+{
+	display: block;
+	width: width: 100%;
+	height: 25px;
+	line-height: 25px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.navFloat a:hover	/*下体菜单链接鼠标经过样式*/
+{
+	color: #FFD800;
+	text-decoration: none;
+	background-color: #0A67A3;
+}
+
+/*Banner样式*/
+.bannerHome		/*首页banner样式*/
+{
+	background-color: #effbff;	
+}
+.bannerInner	/*内页banner样式*/
+{
+	background-color: #effbff;		
+}
+
+/*顶部Banner下区域样式*/
+.noticeArea		/*整体样式*/
+{
+	background: url("images/notice_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/notice_bg.jpg*/ repeat-x center center;
+}
+.searchLogo		/*搜索LOGO样式*/
+{
+	background: url("images/search_logo.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/search_logo.jpg*/ no-repeat center center;
+}
+.searchInput	/*搜索输入框样式*/
+{
+	border: 1px solid #72CBF6;
+	background-color: #FFFFFF;
+	color: #81A9C9;
+	width:260px;
+}
+.searchImage	/*搜索小图标样式*/
+{
+	cursor: pointer;
+	background: url("images/search_btn.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/search_btn.jpg*/ no-repeat center center;
+}
+.noticeMarqueeLogo	/*滚动公告LOGO样式*/
+{
+	background: url("images/notice_logo.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/notice_logo.jpg*/ no-repeat center center;
+}
+.noticeMarquee a	/*滚动公告链接默认样式*/
+{
+	color:#000000;
+}
+.noticeMarquee a:hover	/*滚动公告链接鼠标经过样式*/
+{
+	color:#8A0000;
+}
+/*----------------------------------------顶部设置结束----------------------------------------*/
+
+/*----------------------------------------首页设置开始----------------------------------------*/
+.homeMain	/*首页主体背景*/
+{	
+	background-color: #FFFFFF;
+	table-layout: fixed;
+}
+.homeBorder	/*首页边框颜色*/
+{
+	border-style:solid;
+	border-width:0px;
+	border-color:#ABE6FF;
+}
+/*----------------------------------------首页设置结束----------------------------------------*/
+
+
+/*----------------------------------------内页设置开始----------------------------------------*/
+.innerMain	/*内页主体背景*/
+{
+	background-color: #F8FDFF;	
+	table-layout: fixed;
+}
+
+/*内页左侧*/
+.left	/*左侧整体样式*/
+{
+	background: url("images/left_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left_bg.jpg*/ no-repeat right bottom;
+	border-top:1px solid #ABE6FF;
+	border-right:1px solid #ABE6FF;
+	border-bottom:1px solid #ABE6FF;
+	border-left:1px solid #ABE6FF;
+}
+.left .leftBase	/*左侧一级分类*/
+{
+	
+	font-size:14px;
+	font-weight:bold;
+	background: url("images/left1_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left1_bg.jpg*/ no-repeat center center;
+	color: #FFFFFF;
+}
+.left a.menu		/*左侧二级分类默认样式*/
+{
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	height: 28px;
+	line-height: 28px;
+	color: #035494;	
+	background: url("images/left2_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left2_bg.jpg*/ no-repeat center center;	
+}
+.left a.menuCurrent	/*左侧当前二级分类样式*/
+{
+	display: block;
+	font-size: 13px;
+	text-decoration: none;
+	height: 28px;
+	line-height: 28px;
+	color: #FF4E00;	
+	background: url("images/left2_bg_cur.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left2_bg_cur.jpg*/ no-repeat center center;	
+}
+.left a.menu:hover, .left a.menuCurrent:hover	/*左侧二级分类鼠标经过样式*/
+{
+	color: #FF4E00;	
+	background: url("images/left2_bg_cur.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left2_bg_cur.jpg*/ no-repeat center center;	
+}
+.left a.subMenu	/*左侧三级分类样式*/
+{
+	display: block;
+	text-decoration: none;
+	height: 26px;
+	line-height: 26px;
+	color: #035494;	
+	background: url("images/left3_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left3_bg.jpg*/ no-repeat center center;	
+}
+.left a.subMenuCurrent	/*左侧当前三级分类样式*/
+{
+	display: block;
+	text-decoration: none;
+	height: 26px;
+	line-height: 26px;
+	color: #FF4E00;
+	background: url("images/left3_bg_cur.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left3_bg_cur.jpg*/ no-repeat center center;	
+}
+.left a.subMenu:hover, .left a.subMenuCurrent:hover	/*左侧三级分类鼠标经过样式*/
+{
+	color: #FF4E00;
+	background: url("images/left3_bg_cur.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/left3_bg_cur.jpg*/ no-repeat center center;	
+}
+
+/*内页右侧*/
+.right	/*右侧整体样式*/
+{
+	background-color: #ffffff;
+	border-top:1px solid #ABE6FF;
+	border-right:1px solid #ABE6FF;
+	border-bottom:0px;
+	border-left:0px;	
+}
+.right .location	/*右侧当前位置样式*/
+{
+	padding-left:18px;
+	background-color: #F8FDFF;
+	border-bottom:1px solid #ABE6FF;
+	color: #035494;
+}
+.right .location a	/*右侧当前位置链接样式*/
+{
+	color:#035494;
+	text-decoration: none;
+}
+.right .location a:hover	/*右侧当前位置链接鼠标经过样式*/
+{
+	color:#FF4E00;
+}
+.right .title	/*右侧标题样式*/
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	color: #035494;	
+	background: url("images/right_title_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/right_title_bg.jpg*/ no-repeat center bottom;	
+}
+.right .content	/*右侧内容样式*/
+{
+	margin: 20px 0 40px 0;
+	font-size: 14px;
+	line-height: 180%;
+	color: #333333;
+}
+.right .list	/*右侧列表样式*/
+{
+	margin: 20px 0 20px 0;
+	color: #333333;
+}
+.right .pic		/*右侧图片列表样式*/
+{
+	margin-top: 20px;
+}
+.right .content a, .right .list a	/*右侧内容、列表链接样式*/
+{
+	font-size: 12px;
+	color: #333333;
+}
+.right .content a:hover, .right .list a:hover	/*右侧内容、列表链接鼠标经过样式*/
+{
+	font-size: 12px;
+	color: #FF4E00;
+}
+.right .pic a	/*右侧图片列表链接样式*/
+{
+	color: #333333;
+}
+.right .pic a:hover	/*右侧图片列表链接鼠标经过样式*/
+{
+	color: #FF4E00;
+}
+.right img.p	/*右侧图片边框样式*/
+{
+	border: 1px solid #ABE6FF;
+}
+
+.right_top {	/*向上按钮*/
+	background-image: url("images/line_02.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/line_02.gif*/;
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+
+/*翻页*/
+.page
+{
+	margin-bottom: 20px;
+}
+.page a
+{
+	text-decoration: none;
+	color: #035494;
+}
+.page a.current	/*当前页样式*/
+{
+	color: #FF4E00;
+}
+.page a:hover
+{
+	text-decoration: underline;
+	color: #FF4E00;
+}
+
+/*日期*/
+.date
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*----------------------------------------内页设置开始----------------------------------------*/
+
+/*--------------------------------联系我们等表单性质的页面开始--------------------------------*/
+.contactInfo	/*联系我们内容*/
+{
+	line-height: 180%;
+	color: #333333;
+}
+.contactTitle	/*在线发送电子邮件*/
+{
+	font-weight: bold;
+	color: #035494;
+	background-color: #EFFBFF;
+}
+.contactMsg		/*提示信息*/
+{
+	font-weight: bold;
+	color: #7A7A7A;
+}
+.input	/*输入框*/
+{
+	border: 1px solid #ABE6FF;
+	color: #333;
+	background-color: #FFFFFF;
+}
+.button	/*按钮*/
+{
+}
+
+.order	/*订购*/
+{
+	margin-top: 20px;
+	border-collapse:collapse;
+}
+.order td
+{
+	border: 1px solid #ABE6FF;
+	background-color: #FFFFFF;
+}
+.order td.orderTitle	/*订购头部样式*/
+{
+	font-weight: bold;
+	color: #333333;
+}
+.order td.orderContent	/*订购内容样式*/
+{
+	color: #333333;
+}
+.order a /*订购表格中的链接*/
+{
+}
+.orderLink a /*修改订购数量链接*/
+{
+}
+.orderLink a:hover
+{
+}
+
+/*在线留言*/
+.ibwmessage	/*留言边框和背景*/
+{
+	text-align:left;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border: 1px solid #ABE6FF;
+	background-color: #FFFFFF;
+}
+.ibwmessage .messageTitle	/*留言标题*/
+{
+	padding: 0 6px 0 25px;
+	color: #035494;
+	background: url("images/message1.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/message1.gif*/ no-repeat 6px center;	
+}
+.ibwmessage .messageContent	/*留言内容*/
+{
+	padding: 0 6px 20px 25px;
+	line-height: 180%;
+	color: #333333;
+}
+.ibwmessage .replyTitle		/*回复标题*/
+{
+	padding: 0 6px 0 25px;
+	color: #FF4E00;
+	background: url("images/message2.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/message2.gif*/ no-repeat 6px center;	
+}
+.ibwmessage .replyContent	/*回复内容*/
+{
+	padding: 0 6px 20px 25px;
+	line-height: 180%;
+	color: #333333;
+}
+
+/*问卷调查（问卷）*/
+.survey .question	/*问题*/
+{
+	padding-top:10px;
+	font-size:13px; 
+	font-weight:bold;
+}
+.survey .item	/*选项*/
+{
+}
+
+/*问卷调查（结果）*/
+.survey_view
+{
+	border-collapse:collapse;
+}
+.survey_view td
+{
+	border: 1px solid #333;
+}
+
+.survey_view .question	/*问题*/
+{
+	height:25px;
+	font-size:13px; 
+	font-weight:bold;
+}
+.survey_view .trHead	/*表头*/
+{
+	height:25px;
+	text-align:center;
+}
+.survey_view .trContent	/*内容*/
+{
+	height:25px;
+}
+.survey_view .map	/*图示*/
+{
+	color:#FFCC00;
+}
+
+/*--------------------------------联系我们等表单性质的页面结束--------------------------------*/
+
+/*---------------------------------------底部样式管理开始-------------------------------------*/
+/*底部导航*/
+.navBottom
+{
+	background-image: url("images/footer_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/footer_bg.jpg*/;
+	color: #FFFFFF;
+	padding-left: 15px;
+}
+
+.navBottom a
+{
+	color: #EFFBFF;
+	text-decoration: none;
+	padding-left:15px;
+	padding-right:15px;
+}
+.navBottom a:hover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*底部版权*/
+.footer
+{
+	background-color: #EFFBFF;
+	color: #035494;
+	line-height: 20px;
+	padding-top: 8px;
+	padding-bottom:10px;
+}
+.footer a
+{
+	color: #035494;
+	text-decoration: underline;
+}
+.footer a:hover
+{
+	color: #FF4E00;
+	text-decoration: none;
+}
+
+/*底部友情链接*/
+.selectLink
+{
+	background-color: #FFFFFF;
+	color: #055595;
+}
+/*---------------------------------------底部样式管理结束-------------------------------------*/

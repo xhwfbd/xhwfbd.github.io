@@ -1,0 +1,211 @@
+/*首页样式1*/
+.home1,.home0
+{
+	font-size:12px;
+	background-color: #FFFFFF;		
+}
+.home1 .title,.home0 .title	/*标题*/
+{
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #E9F4FF;
+	background: url("images/home1_title_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/home1_title_bg.jpg*/ left bottom no-repeat;
+	padding-left:25px;
+}
+.home1 .content,.home0 .content	/*内容*/
+{
+	line-height:150%;
+	color: #727272;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;	
+}
+.home1 .content a
+{
+	font-size:12px;
+	color: #727272;
+	text-decoration: underline;
+}
+.home1 .content a:hover
+{
+	color: #657E00;
+	text-decoration: none;
+}
+
+.home0 .content a
+{
+	font-size:12px;
+	color: #0066CB;
+	text-decoration: underline;
+}
+.home0 .content a:hover
+{
+	color: #657E00;
+	text-decoration: none;
+}
+
+.home1 .content .pic img	/*图片*/
+{
+	border: 0px;
+}
+.home1 .content .list	/*图片*/
+{
+	line-height:170%;
+}
+.home1 .moreImage	/*更多链接*/
+{
+	display: block;
+	width: 40px;
+	height: 12px;
+	cursor: pointer;
+	background: url("images/more.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/more.gif*/ right bottom no-repeat;	
+}
+
+/*首页样式2*/
+.home2
+{
+	font-size:12px;
+	background-color: #FFFFFF;		
+}
+.home2 .title	/*标题*/
+{
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: url("images/home1_title_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/home1_title_bg.jpg*/ left bottom no-repeat;
+	padding-left:25px;
+}
+.home2 .content	/*内容*/
+{
+	line-height:150%;
+	color: #657E00;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 10px;	
+}
+.home2 .content a
+{
+	font-size:12px;
+	color: #657E00;
+	text-decoration: underline;
+}
+.home2 .content a:hover
+{
+	color: #657E00;
+	text-decoration: none;
+}
+.home2 .content .pic img	/*图片*/
+{
+	border: 1px solid #CDE3A0;
+}
+.home2 .moreImage	/*更多链接*/
+{
+	display: block;
+	width: 40px;
+	height: 12px;
+	cursor: pointer;
+	background: url("images/more.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/more.gif*/ right bottom no-repeat;	
+}
+
+.home3
+{
+	font-size:12px;
+	background-color: #FFFFFF;	
+	height:255px;
+}
+.home3 .title
+{
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #657E00;
+	background: url("images/home2_title_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/home2_title_bg.jpg*/ left bottom no-repeat;
+	padding-left:25px;
+}
+.home3 .content
+{
+	padding-top: 18px;
+}
+.home3 .moreImage
+{
+	display: block;
+	width: 40px;
+	height: 12px;
+	cursor: pointer;
+	background: url("images/more2.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/more2.gif*/ right bottom no-repeat;		
+}
+
+.home4
+{
+	font-size:12px;
+	background-color: #FFFFFF;		
+}
+.home4 .title
+{
+	height: 26px;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #657E00;
+	background: url("images/home2_title_bg.jpg")/*tpa=http://xhwfbd.com/upload/style/default/images/home2_title_bg.jpg*/ left bottom no-repeat;
+	padding-left:25px;
+}
+.home4 .content
+{
+	line-height:150%;
+	color: #727272;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.home4 .content a
+{
+	font-size:12px;
+	color: #727272;
+	text-decoration: underline;
+}
+.home4 .content a:hover
+{
+	color: #657E00;
+	text-decoration: none;
+}
+.home4 .content .pic img
+{
+	border: 1px solid #F1F1F1;
+}
+.home4 .content .list
+{
+	line-height:170%;
+	padding-left:15px;
+}
+.home4 .moreImage
+{
+	display: block;
+	width: 40px;
+	height: 12px;
+	cursor: pointer;
+	background: url("images/more2.gif")/*tpa=http://xhwfbd.com/upload/style/default/images/more2.gif*/ right bottom no-repeat;		
+}
+
+.home_pic
+{
+	background-color: #FFFFFF;
+}
+.home_pic .content
+{
+	padding-top:10px;
+	padding-right:3px;
+	padding-bottom:10px;
+}
+.home_pic .content .pic img
+{
+	border:0px;
+}
